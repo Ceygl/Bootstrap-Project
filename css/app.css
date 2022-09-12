@@ -16,3 +16,44 @@
 }
 
 /* ! CAROUSEL */
+.carousel-item{
+    max-height: calc(100vh - 88px);
+}
+
+.carousel-item h5{
+    color: var(--red);
+    font-size: 2.5rem;
+    text-shadow: 2px 3px 3px black;
+}
+.carousel-item p{
+    text-shadow: 2px 3px 3px black;
+    font-weight: 600;
+}
+.carousel-item .btn{
+    width: 7rem;
+    margin-bottom: 1rem;
+}
+.carousel-indicators button{
+    background-color: #dc3545 !important;
+    height: .4rem !important;
+    width: 3rem !important;
+    margin-right: .5rem !important;
+}
+.carousel-caption{
+    bottom: 5rem;
+}
+
+/* ! INSTRUCTORS */
+
+section#instructors .card{
+    transition: transform .5s;
+}
+section#instructors .card:hover{
+    transform: scale(1.05);
+}
+section#instructors .socials i{
+    transition: opacity .4s;
+}
+section#instructors .socials i:hover{
+    opacity: .5;
+}
