@@ -57,3 +57,58 @@ section#instructors .socials i{
 section#instructors .socials i:hover{
     opacity: .5;
 }
+
+/*! STUDENTS */
+
+section#students img{
+    max-width: 400px;
+    min-width: 200px;
+}
+
+/* ! COURSES */
+section#courses .nav-link.active{
+    background-color: var(--red);
+}
+section#courses .nav-link{
+    color: white;
+    transition: all .5s;
+}
+.tab-pane{
+    transition: .1s;
+}
+
+/* ! FOOTER */
+ footer i{
+    font-size: 2rem;
+    color: white;
+    margin-right: .8rem;
+    transition: color .5s;
+ }
+ footer i:hover{
+    color: var(--red);
+ }
+
+ /* ! UP BUTTON */
+ .btn-up{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    border-radius: 50%;
+    background-color: var(--red);
+    color: white;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    text-decoration: none;
+    transition: color .3s;
+ }
+ .btn-up:hover{
+    color: black;
+ }
+ .btn-up:hover i{
+    transform: scale(1.2);
+    font-size: 1.4rem;
+ }
